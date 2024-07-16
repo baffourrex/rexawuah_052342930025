@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container{
+    background-color: rgb(224, 146, 140);
+    border: 1px solid #333;
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+.right-side, .left-side{
+    list-style-type: none;
+}
+.right-side li, .left-side li{
+    display: inline-block;
+}
+.right-side li a, .left-side li a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #333;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+.right-side li a:hover, .left-side li a:hover{
+    background-color: darkgreen; color: #77e610;
+}
+
+*{margin:0 ;padding:20px ;font-family:'Times New Roman';}
+body {display: grid; background-color:deeppink; 
+ background-size: cover ;}
+table {padding: 5px; border-collapse: collapse;}
+th {background-color: #5f0837; color: gold; text-align: center;}
+table, td, tr {background-color: #be0869; box-shadow: -6px 12px 12px -6px   #5f0837; padding: 25px; text-align: center;}
+h2, td {color: white;}
+
+tr:nth-child(even){background-color: #51517f;}
+
+tr:nth-child(even):hover{background-color: #1c536c;
+    transform: scale(1.5); transition: transform 2000ms ease;}
+
+
+tr:nth-child(odd):hover{background-color: #412f84;
+    transform: scale(1.5);transition: transform 2000ms ease;}
+
+    * {margin: 0; padding: 0;text-align: center;font-family: arial;}
+
+    body{background-color:  #146f6f;;padding-top: 50px; padding-bottom: 50px;}
+    
+    h2{color: #0c0115;}
+    
+    h3{color: #0c0115; font-size: 30px; margin-top: 10px;}
+    
+    .container{padding-top:50px; gap:25px ;margin:0;display: flex;flex-wrap: wrap;
+         justify-content: center;}
+    
+    .box{width: 320px; height: 500px;background-color: #3ea967; border-radius: 100px;
+    transform:transform 0.6s ease }
+    
+    .box:hover{transform: translateY(-20px);}
+    
+    .box img{width: 250px;height: 250px;padding-top: 30px;border-radius: 30%;}
+    
+    .box p{color: #1a02a1; padding-top: 10px; padding-bottom: 10px; line-height: 25px; font-family: georgia; font-weight: 5px;}
+    
+    .box button{width: 150px; height: 40px; background-color: #1c092e; border-radius: 10px;
+    border: none; color: #b788e2; font-size: 17px; font-weight: bold; margin-top: 2px;}
+    
+    .box .button:hover{background: #0c0848; color: whitesmoke; border: 2px solid salmon;}
+    
+    
